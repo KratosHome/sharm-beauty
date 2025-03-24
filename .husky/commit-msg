@@ -1,0 +1,4 @@
+#!/bin/sh
+
+message="$(cat $1)"
+echo $message | pnpm commitlint
